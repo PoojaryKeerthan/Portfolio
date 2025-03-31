@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Cabin:ital,wght@0,400..700;1,400..700&family=Glory:ital,wght@0,100..800;1,100..800&family=Happy+Monkey&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Ysabeau+SC:wght@1..1000&display=swap');
+@import "tailwindcss";
+
+
+body {
+    font-family: 'Cabin', sans-serif;
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    font-family: 'Glory', sans-serif;
+}
+
+.special-text {
+    font-family: 'Happy Monkey', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+@layer base {
+    .nav-item {
+        @apply block rounded-full px-4 py-1.5 text-sm font-semibold transition duration-300 hover:bg-white/10 text-white/70 hover:text-white;
+    }
+
+    .mask-gradient {
+        mask-image: linear-gradient(to bottom,
+                transparent,
+                rgba(0, 0, 0.9),
+                rgba(0, 0, 0.0),
+                transparent);
+        -webkit-mask-image: linear-gradient(to bottom,
+                transparent,
+                rgba(0, 0, 0.9),
+                rgba(0, 0, 0.0),
+                transparent);
+    }
+    .mask-gradient-right {
+        mask-image: linear-gradient(
+                to right,
+                transparent,
+                rgba(0, 0, 0.9),
+                rgba(0, 0, 0.9),
+                transparent);
+    }
+}
+
+@layer utilities {
+    .custom-container {
+        @apply w-full max-w-6xl mx-auto px-4;
+    }
+
+    ::-webkit-scrollbar {
+        width: 12px;
+        height: 12px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #20242d;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #3b82f6;
+        border-radius: 6px;
+        /* border: 1px solid #eee; */
+        transition: background 0.3s ease;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555555;
+    }
+}
+
+.animated-icon {
+    display: inline-block;
+    animation: swing 2.5s infinite ease-in-out;
+  }
+  
+  @keyframes swing {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Move up */
+    }
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .animate-scroll {
+    display: flex;
+    min-width: 200%;
+    animation: scroll 26s linear infinite;
+  }
+  
