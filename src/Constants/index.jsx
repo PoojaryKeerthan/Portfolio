@@ -20,6 +20,7 @@ export const projects = [
     id: 1,
     title: "MLA Finder: Discover Your Regional Leaders",
     image: Project1,
+    link:"https://github.com/PoojaryKeerthan/MLA-list-finder",
     description:
       "MLA Finder is an interactive web tool that allows users to click on any region in the Indian map and instantly view the Member of Legislative Assembly (MLA) details for that area. Built with React, Node.js, and interactive mapping technologies, this project simplifies political awareness by providing quick access to regional leadership information",
   },
@@ -27,6 +28,7 @@ export const projects = [
     id: 2,
     title: "FlavorFind: Your Ultimate Recipe Companion",
     image: Project2,
+    link:null,
     description:
       "Helping You Reunite with Your Lost Items!FindIt is a smart lost item finder available as both a mobile app (React Native) and a web platform (React, Node.js, MongoDB). Whether you've lost something or found an unclaimed item, FindIt connects people to help recover lost belongings efficiently.",
   },
@@ -34,6 +36,7 @@ export const projects = [
     id: 3,
     title: " FindIt: Lost & Found Made Easy",
     image: Project3,
+    link: null,
     description:
       "A highly customizable and interactive admin dashboard built with Tailwind CSS, React, and Chart.js to visualize complex data effectively.",
   },
