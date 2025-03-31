@@ -9,7 +9,7 @@ const ProjectCard = ({project,index}) => {
             <h2 className='font-serif text-2xl font-semibold text-white/80'>{project.title}</h2>
             <hr className='border-t-2 border-white/10'/>
             <p className='text-sm text-white/30'>{project.description}</p>
-            <Button onClick={()=>{window.location.href=project.link}}>Visit</Button>
+            <Button onClick={()=>{window.location.href=project.link || "https://keerthanppoojary.vercel.app/"}}>Visit</Button>
         </div>
         <div className='mt-5 flex items-center justify-center md:mt-0 md:flex-1 '>
         <img src={project.image} alt={project.title}
