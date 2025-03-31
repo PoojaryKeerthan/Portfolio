@@ -47,9 +47,10 @@ const Hero = ({ menuOpen }) => {
     variants={ContainerVariants}
     >
       <div className={`custom-container transition-all duration-300 ${menuOpen ? 'px-10 blur-sm' : ''}`}>
-        <div className='relative flex h-screen flex-col-reverse items-center md:flex-row'>
+        <div className='relative flex h-screen flex-col-reverse items-center md:flex-row '>
           {/*Hero Content */}
           <HeroContent variants={ContentVariants}/>
+          
           {/*Hero Image */}
           <HeroImage variants={ImageVariant} />
         </div>

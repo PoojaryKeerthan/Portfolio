@@ -7,7 +7,7 @@ const HeroImage = ({variants}) => {
   return (
     <motion.div
     variants={variants} 
-    className=' absolute mask-gradient right-0 top-0 h-[550px] w-full overflow-hidden rounded-bl-full rounded-br-full border-r-[10px] border-blue-500 bg-gray-700 md:h-[600px] md:w-[450px]'>
+    className=' absolute mask-gradient right-0 top-0 h-[460px] w-full overflow-hidden rounded-bl-full rounded-br-full border-r-[10px] border-blue-500 bg-gray-700 md:h-[600px] md:w-[450px]'>
        
        <AnimatedIcon Icon={BiLogoReact} className="md:left-20 md:top-24 left-10 top-24 "/>
 
