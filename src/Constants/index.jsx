@@ -20,7 +20,7 @@ export const projects = [
     id: 1,
     title: "MLA Finder: Discover Your Regional Leaders",
     image: Project1,
-    link:"https://github.com/PoojaryKeerthan/MLA-list-finder",
+    link:"https://mla-list-finder.vercel.app/",
     description:
       "MLA Finder is an interactive web tool that allows users to click on any region in the Indian map and instantly view the Member of Legislative Assembly (MLA) details for that area. Built with React, Node.js, and interactive mapping technologies, this project simplifies political awareness by providing quick access to regional leadership information",
   },
@@ -36,7 +36,7 @@ export const projects = [
     id: 3,
     title: " FindIt: Lost & Found Made Easy",
     image: Project3,
-    link: null,
+    link:"https://find-it-olive.vercel.app/",
     description:
       "A highly customizable and interactive admin dashboard built with Tailwind CSS, React, and Chart.js to visualize complex data effectively.",
   },
