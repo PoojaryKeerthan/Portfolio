@@ -28,7 +28,7 @@ export const projects = [
     id: 2,
     title: "FlavorFind: Your Ultimate Recipe Companion",
     image: Project2,
-    link:null,
+    link:"https://github.com/PoojaryKeerthan/Food-recipes-app",
     description:
       "Helping You Reunite with Your Lost Items!FindIt is a smart lost item finder available as both a mobile app (React Native) and a web platform (React, Node.js, MongoDB). Whether you've lost something or found an unclaimed item, FindIt connects people to help recover lost belongings efficiently.",
   },
