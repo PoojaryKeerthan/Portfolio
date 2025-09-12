@@ -1,18 +1,11 @@
 import React from 'react'
 import Button from './Button'
 import { motion } from 'framer-motion'
-
+import KeerthanPoojary from '../assets/KeerthanPoojary.pdf'
 
 const HeroContent = ({ variants }) => {
 
-  
 
-  const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = '../assets/KeerthanPoojary.pdf'; // Path to your PDF in the public folder
-    link.download = 'KeerthanPoojary.pdf';    // Name for the downloaded file
-    link.click();
-  };
 
   return (
     <motion.div
@@ -28,7 +21,10 @@ const HeroContent = ({ variants }) => {
       </p>
       <div className='flex items-center gap-2 mt-8 mb-4'>
         <Button onClick={() => window.location.href = "#contact"}>Contact Me</Button>
-        <Button onClick={()=>{handleDownload()}} >My Resume</Button>
+        <a href={KeerthanPoojary}>
+        <Button >My Resume</Button>
+        </a>
+        
       </div>
     </motion.div>
   )
