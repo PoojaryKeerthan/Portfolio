@@ -1,6 +1,6 @@
 import Project1 from "../assets/Project1.png";
 import Project2 from "../assets/Project2.jpeg";
-import Project3 from "../assets/Project3.jpeg";
+import Project3 from "../assets/Project3.png";
 import { BiCodeAlt, BiMobileAlt, BiPalette, BiSearchAlt } from "react-icons/bi";
 import { SiGmail } from "react-icons/si";
 import { IoMdCall } from "react-icons/io";
@@ -26,7 +26,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "FlavorFind: Your Ultimate Recipe Companion",
+    title: "FindIt: Lost & Found Made Easy",
     image: Project2,
     link:"https://github.com/PoojaryKeerthan/Food-recipes-app",
     description:
@@ -34,12 +34,12 @@ export const projects = [
   },
   {
     id: 3,
-    title: " FindIt: Lost & Found Made Easy",
+    title: "SpinRent A modern full-stack rental marketplace platform that connects product owners with renters ",
     image: Project3,
-    link:"https://find-it-olive.vercel.app/",
+    link:"https://spinrent.vercel.app/",
     description:
-      "A highly customizable and interactive admin dashboard built with Tailwind CSS, React, and Chart.js to visualize complex data effectively.",
-  },
+      "SpinRent is a comprehensive rental marketplace application that allows users to list items for rent and browse available rentals. The platform features secure authentication, role-based access control, and a complete rental workflow from listing to reservation management."
+  }
 ];
 
 export const services = [
@@ -106,8 +106,6 @@ export const words = [
   "Node.js",
   "Express",
   "MongoDB",
-  "GraphQL",
-  "Apollo",
   "APIs",
   "Git",
   "GitHub",
