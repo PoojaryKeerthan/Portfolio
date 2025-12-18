@@ -30,4 +30,4 @@ dist-ssr
 .env
 
 # Ignore Firebase config
-/src/FireBase/firebase.js
+# /src/FireBase/firebase.js
