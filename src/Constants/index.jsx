@@ -13,6 +13,7 @@ export const menuItems = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
   { label: "Contact", href: "#contact" },
+  { label:"Dsa Sheet", href: "/dsa"},
 ];
 
 export const projects = [
@@ -45,7 +46,7 @@ export const projects = [
 export const services = [
   {
     title: "Web Development",
-    description:"Experienced in React.js for building dynamic and interactive UIs, and Node.js for developing scalable backend services. Proficient in MongoDB and Firebase for efficient database management and real-time data handling. Skilled in Git for version control, ensuring smooth collaboration and deployment.Passionate about creating responsive, high-performance web applications with a focus on user experience and scalability.",
+    description:"Experienced in React.js for building dynamic and interactive UIs, and Node.js,Springboot for developing scalable backend services. Proficient in MongoDB and Firebase for efficient database management and real-time data handling. Skilled in Git for version control, ensuring smooth collaboration and deployment.Passionate about creating responsive, high-performance web applications with a focus on user experience and scalability.",
     icon: BiCodeAlt,
   },
   {
