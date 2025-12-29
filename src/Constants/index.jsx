@@ -1,6 +1,7 @@
 import Project1 from "../assets/Project1.png";
 import Project2 from "../assets/Project2.jpeg";
 import Project3 from "../assets/Project3.png";
+import Project4 from "../assets/Project4.png";
 import { BiCodeAlt, BiMobileAlt, BiPalette, BiSearchAlt } from "react-icons/bi";
 import { SiGmail } from "react-icons/si";
 import { IoMdCall } from "react-icons/io";
@@ -39,13 +40,21 @@ export const projects = [
     link:"https://spinrent.vercel.app/",
     description:
       "SpinRent is a comprehensive rental marketplace application that allows users to list items for rent and browse available rentals. The platform features secure authentication, role-based access control, and a complete rental workflow from listing to reservation management."
+  },
+  {
+    id: 4,
+    title: "Mardoli Youth Club (MYC) Digital Portal",
+    image: Project4,
+    link:"https://mycofficial.vercel.app/homepage",
+    description:
+      "A comprehensive digital platform for a youth organization focused on community empowerment and sports management. The site manages village initiatives and professional-style sports leagues for hundreds of local members."
   }
 ];
 
 export const services = [
   {
     title: "Web Development",
-    description:"Experienced in React.js for building dynamic and interactive UIs, and Node.js for developing scalable backend services. Proficient in MongoDB and Firebase for efficient database management and real-time data handling. Skilled in Git for version control, ensuring smooth collaboration and deployment.Passionate about creating responsive, high-performance web applications with a focus on user experience and scalability.",
+    description:"Experienced in React.js and Next js for building dynamic and interactive UIs, and Node.js,Springboot for developing scalable backend services. Proficient in sql, MongoDB and Firebase for efficient database management and real-time data handling. Skilled in Git for version control, ensuring smooth collaboration and deployment.Passionate about creating responsive, high-performance web applications with a focus on user experience and scalability.",
     icon: BiCodeAlt,
   },
   {
