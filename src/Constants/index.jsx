@@ -55,11 +55,7 @@ export const projects = [
 export const services = [
   {
     title: "Web Development",
-<<<<<<< HEAD
     description:"Experienced in React.js and Next js for building dynamic and interactive UIs, and Node.js,Springboot for developing scalable backend services. Proficient in sql, MongoDB and Firebase for efficient database management and real-time data handling. Skilled in Git for version control, ensuring smooth collaboration and deployment.Passionate about creating responsive, high-performance web applications with a focus on user experience and scalability.",
-=======
-    description:"Experienced in React.js for building dynamic and interactive UIs, and Node.js,Springboot for developing scalable backend services. Proficient in MongoDB and Firebase for efficient database management and real-time data handling. Skilled in Git for version control, ensuring smooth collaboration and deployment.Passionate about creating responsive, high-performance web applications with a focus on user experience and scalability.",
->>>>>>> 508b205ef7233dfac8e6de721285528542535fe4
     icon: BiCodeAlt,
   },
   {
