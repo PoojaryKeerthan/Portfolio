@@ -12,7 +12,7 @@ const Tape = () => {
                 {[...new Array(2)].fill(0).map((_, index)=>(
                     <Fragment key={index}>
                         {words.map((word, index)=>(
-                            <div className='inline-flex items-center gap-4 '>
+                            <div key={index} className='inline-flex items-center gap-4 '>
                                 <span className='text-sm font-extrabold uppercase text-gray-800 '>{word}</span>
                                 <BiLogoMeta className='size-8 -rotate-12 text-gray-800'/>
                             </div>

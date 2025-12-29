@@ -26,6 +26,7 @@ const Skills = () => {
       <div className='custom-container mt-10 grid grid-cols-1 gap-4 md:grid-cols-2'>
         {services.map((service,index) => (
           <motion.div
+          key={index}
           custom={index}
             variants={CardVariants}
             initial='hidden'

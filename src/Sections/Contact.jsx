@@ -64,7 +64,7 @@ const Contact = () => {
                         variants={Staggercontainer}
                     >
                         {contactDetails.map((contact) => (
-                            <div key={contact.label}>
+                            <div key={contact.id}>
                                 <motion.a href={contact.link} variants={fadeInVariants}><ContactDetailCard contact={contact} /></motion.a>
                             </div>
                         ))}
